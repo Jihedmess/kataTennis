@@ -1,3 +1,7 @@
 spring:
   application:
-    name: demo
+    name: KataTennis
+
+logging:
+  pattern:
+    level: "%5p [corr:%X{correlationId:-N/A}]"
